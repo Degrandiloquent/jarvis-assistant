@@ -1,8 +1,16 @@
-# JARVIS Ultimate Close Applications Feature  
-## Steps:  
-1. [x] Expand apps dict in jarvis_ultimate.py  
-2. [x] Add close_application method  
-3. [x] Add 'close' handling in process_command  
-4. [x] Update help texts  
-5. [x] Test run and verify close functionality  
-6. [x] Complete task
+# JARVIS Web UI + Vercel Deployment TODO
+
+## Current Task: Professional Iron Man JARVIS Web UI
+- [x] Create TODO.md with steps
+- [ ] Create /frontend/index.html
+- [ ] Create /frontend/style.css (futuristic theme)
+- [ ] Create /frontend/app.js (Web Speech, Gemini, waves)
+- [ ] Create /frontend/vercel.json
+- [ ] Create /api/gemini.js (API proxy)
+- [ ] Update README.md with deploy instructions
+- [ ] Test locally
+- [ ] git add/commit/push
+- [ ] Deploy to Vercel
+
+Progress: Starting UI creation...
+
