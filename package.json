@@ -1,0 +1,9 @@
+{
+  "name": "jarvis-ui",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "live-server . --port=3000",
+    "build": "mkdir dist 2>nul || true & copy *.html *.css *.js vercel.json package.json dist\\ 2>nul || true & xcopy /E /I /Y api dist\\api 2>nul || true"
+  },
+  "homepage": "./"
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J.A.R.V.I.S - Just A Rather Very Intelligent System</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+
+    <div class="container">
+        <header class="hud">
+            <div class="logo">
+                <span class="glitch" data-text="J.A.R.V.I.S">J.A.R.V.I.S</span>
+                <span class="status"><span class="dot"></span> ONLINE</span>
+            </div>
+            <div class="time-date"></div>
+        </header>
+
+        <main class="main-hud">
+            <div class="visualizer-container">
+                <canvas id="waveVisualizer" class="wave-visualizer"></canvas>
+                <div class="mic-btn" id="micBtn">
+                    <div class="mic-icon">🎤</div>
+                </div>
+            </div>
+
+            <div class="chat-container glass">
+                <div id="chatMessages" class="chat-messages"></div>
+                <div class="chat-input-container">
+                    <input type="text" id="userInput" class="chat-input" placeholder="How may I assist you, sir?">
+                    <button id="sendBtn" class="send-btn">Send</button>
+                </div>
+            </div>
+
+            <div class="controls-panel glass">
+                <div class="control-group">
+                    <h3>Quick Commands</h3>
+                    <button class="cmd-btn" data-cmd="time">🕐 Time</button>
+                    <button class="cmd-btn" data-cmd="date">📅 Date</button>
+                    <button class="cmd-btn" data-cmd="chrome">🌐 Chrome</button>
+                    <button class="cmd-btn" data-cmd="youtube">🎥 YouTube</button>
+                    <button class="cmd-btn" data-cmd="search">🔍 Search</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
