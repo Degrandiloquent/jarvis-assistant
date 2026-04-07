@@ -1,0 +1,8 @@
+{
+  "name": "jarvis-ui",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "live-server . --port=3000"
+  }
+}
+
